@@ -15,6 +15,6 @@ spec:
       containers:
         - name: node-app
           image: sit737-prac6p-app
-          imagePullPolicy: Never  # 🔥 THIS IS THE FIX
+          imagePullPolicy: Never 
           ports:
             - containerPort: 3000
